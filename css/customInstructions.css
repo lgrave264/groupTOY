@@ -1,0 +1,15 @@
+
+
+.bodyClass{
+    border:solid black 2px;
+    align-items: center;
+    align-self: center;
+    align-content: center;
+    margin-top: 100px;
+    width: 30rem;
+    height: 20rem;
+}
+#navTopper{
+    display:flex;
+    justify-content: space-evenly;
+}
