@@ -1,0 +1,61 @@
+.grid-container1{
+    display:grid;
+    grid-template-columns:auto auto auto;
+    
+}
+.shopImgLeft{
+    grid-column:1/2;
+    padding-bottom: -2rem;
+}
+.shopImgMid{
+    grid-column:2/3;
+    padding-left: .75rem;
+    padding-right: .75rem;
+}
+.shopImgRight{
+    grid-column:3/4;
+}
+.topLeftText{
+    grid-column:1/2;
+    grid-row:2/3;
+}
+.topMidText{
+    grid-column:2/3;
+    grid-row:2/3;
+}
+.topRightText{
+    grid-column:3/4;
+    grid-row:2/3;
+}
+.topContainer{
+    margin-top:2rem;
+}
+.topContainer{
+    justify-self: center;
+    margin-top:3rem;
+    margin-right: .75rem;
+}
+.smallPic{
+    border-radius:25px;
+}
+.medPic{
+    border-radius:25px;
+}
+.largePic{
+    border-radius:25px;
+}
+.topIMG{
+    width:110%;
+}
+.buyText{
+    justify-self: center;
+    padding-top: 1.5rem;
+}
+body{
+    background-color: grey;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
+}
+p{
+    font-size: 2rem;
+    color: red;
+}
