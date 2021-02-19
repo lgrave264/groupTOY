@@ -27,13 +27,25 @@
     grid-column:3/4;
     grid-row:2/3;
 }
-.topContainer{
-    margin-top:2rem;
+.botLeftText{
+    grid-column:1/2;
+    grid-row:5/6;
+}
+.botMidText{
+    grid-column:2/3;
+    grid-row:5/6;
+}
+.botRightText{
+    grid-column:3/4;
+    grid-row:5/6;
 }
 .topContainer{
     justify-self: center;
-    margin-top:3rem;
+    margin-top:5rem;
     margin-right: .75rem;
+}
+.largePic{
+    border-radius:25px;
 }
 .smallPic{
     border-radius:25px;
@@ -41,21 +53,48 @@
 .medPic{
     border-radius:25px;
 }
-.largePic{
-    border-radius:25px;
-}
-.topIMG{
-    width:110%;
-}
 .buyText{
     justify-self: center;
-    padding-top: 1.5rem;
+    padding-top: .75rem;
+}
+@font-face{
+    font-family: anything;
+    src: url('../Fonts/Party\ Kids.ttf');
 }
 body{
-    background-color: grey;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
+    font-family: anything;
+    background-color:#E0C936;
 }
 p{
     font-size: 2rem;
     color: red;
+}
+@media screen and (max-width: 500px){
+    p{
+        font-size:1.15rem;
+    }
+    .largePic{
+        width:95%;
+    }
+}
+.topIMG{
+    width:150%;
+}
+.botIMG{
+    width:80%;
+    border-radius: 25px;
+    padding-top:5%;
+    padding-bottom:5%;
+    padding-left:2%;
+    padding-right:2%;
+    background-color:white;
+}
+.botMidPic{
+    width:80%;
+    height:100%;
+
+}
+.botLeftPic{
+    width:80%;
+    height:100%;
 }
