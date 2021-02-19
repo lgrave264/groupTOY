@@ -1,0 +1,35 @@
+#shift{
+    margin-left: 3rem;
+    margin-top: .75rem;
+}
+.imgBig{
+    width: 40rem;
+    height: 40rem;
+}
+.p{
+    
+    margin-top: 1rem;
+    margin-right: 3rem;
+    position: absolute;
+    top: 3.5rem;
+    left: 45rem;
+    font-family: 'cartoon';
+    color: #DE3D28;
+}
+.p2{
+    margin: .75rem;
+    margin-left: 3rem;
+    margin-right: 3rem;
+    margin-top: 5rem;
+    color: #DE3D28;
+}
+.fontfamily{
+    font-family: 'cartoon';
+}
+@font-face {
+    font-family: 'cartoon';
+    src:url(fonts/Oregano-Regular.ttf);
+}
+body{
+    background-color: #E0C936;
+}
