@@ -44,15 +44,6 @@
     margin-top:5rem;
     margin-right: .75rem;
 }
-.largePic{
-    border-radius:25px;
-}
-.smallPic{
-    border-radius:25px;
-}
-.medPic{
-    border-radius:25px;
-}
 .buyText{
     justify-self: center;
     padding-top: .75rem;
@@ -65,36 +56,109 @@ body{
     font-family: anything;
     background-color:#E0C936;
 }
+.topIMG{
+    width:200%;
+}
+.botIMG{
+    width:80%;
+    border-radius: 25px;
+    margin-left: .5rem;
+    padding-top:10%;
+    padding-bottom:10%;
+    padding-left:2%;
+    padding-right:2%;
+    background-color:white;
+    margin-left:2rem;
+}
+.botMidPic{
+    width:80%;
+    height:100%;
+}
+.botLeftPic{
+    width:80%;
+    height:100%;
+    margin-left:2rem;
+}
 p{
     font-size: 2rem;
     color: red;
+    padding-bottom:0;
+    margin-bottom:0;
+}
+h4{
+    padding-top:1rem;
 }
 @media screen and (max-width: 500px){
     p{
         font-size:1.15rem;
     }
+    .topIMG{
+        width: 124px;
+    }
+    .botIMG{
+        width: 124px;
+        margin-left:0;
+    }
+    h4{
+        font-size:1.15rem;
+    }
+    .friend{
+        height: 60px;
+        width: 60px;
+    }
+    .botLeftPic{
+        width: 130px;
+    }
+    .botMidPic{
+        margin-left:.5rem;
+        width:130px;
+    }
+    .botRightPic{
+        margin-left:.5rem;
+        width:130px;
+    }
     .largePic{
-        width:95%;
+        width:130px;
+        height:135px;
     }
 }
-.topIMG{
-    width:150%;
+.largePic{
+    border-radius:25px;
+    width:20rem;
 }
-.botIMG{
-    width:80%;
-    border-radius: 25px;
-    padding-top:5%;
-    padding-bottom:5%;
-    padding-left:2%;
-    padding-right:2%;
-    background-color:white;
+.smallPic{
+    border-radius:25px;
+    width:20rem;
 }
-.botMidPic{
-    width:80%;
-    height:100%;
-
+.medPic{
+    border-radius:25px;
+    width:20rem;
 }
-.botLeftPic{
-    width:80%;
-    height:100%;
+.footer{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #212529;
+    color: #0d6efd;
+    text-align: center;
+  }
+  .friend{
+    height: 65px;
+    width: 65px;
+    margin-right: 5px;
+}
+.mainGrid{
+    display:grid;
+    grid-template-columns:auto auto;
+    border: .25rem solid black;
+    margin-top:4rem;
+}
+.storeMainPic{
+    grid-column:1/2;
+    width:30rem;
+}
+.storeBuyText{
+    grid-column:2/3;
+    grid-row:1/2;
 }
