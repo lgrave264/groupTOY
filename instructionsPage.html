@@ -7,6 +7,7 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js" integrity="sha384-q2kxQ16AaE6UbzuKqyBE9/u/KzioAlnx2maXQHiDX9d4/zp8Ok3f+M7DPm+Ib6IU" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="css/customInstructions.css">
+    <script src="js/index.js"></script>
     <style>
       @font-face{
         font-family: nottrash;
@@ -36,24 +37,29 @@
           <li class="nav-item">
             <a class="nav-link" href="AdPage.html">Market</a>
           </li>
+      </div>
+      <div style="float: right;">
         </ul>
+        <label class="switch">
+          <input id="retroButton" name="retro" type="checkbox" onclick="myFunction() , changeImage() , changeImage2(), changeImage3()">
+          <span class="slider round"></span>
+        </label>
       </div>
   </nav>
-  <div align="center" style="margin-top: 1rem;" class="container bodyClass">
+  <div align="center" style="margin-top: 0.2rem;" class="container bodyClass">
     <div class="container">
       <div class="row">
         <div class="col-sm-4">
-          <img class="img-fluid instructionImage largepic" src="images/instruct1.jpg">
+          <img id="img1" class="img-fluid instructionImage largepic" src="images/instruct1.jpg">
         </div>
         <div class="col-sm-4">
-          <img class="img-fluid instructionImage largepic" src="images/instruct2.jpg">
+          <img id="img2" class="img-fluid instructionImage largepic" src="images/instruct2.jpg">
         </div>
         <div class="col-sm-4">
-          <img class="img-fluid instructionImage largepic" src="images/instruct3.jpg">
+          <img id="img3" class="img-fluid instructionImage largepic" src="images/instruct3.jpg">
         </div>
       </div>
-      <br>
-      <br>
+      <hr>
       <div class="row">
         <div class="col-sm-7">
           <fieldset><legend>Instructions</legend>
