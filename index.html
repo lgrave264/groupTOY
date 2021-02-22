@@ -10,52 +10,73 @@
     <link rel="stylesheet" href="index.css">
 </head>
 <body>
-  <nav class="navbar navbar-expand-lg navbar-blue bg-dark fontfamily fs-4">
+  <nav class="navbar navbar-expand-lg navbar-blue bg-dark fontfamily fs-4" id="myTopnav">
     <div class="container-fluid">
-      <a class="navbar-brand" aria-current="page" href="index.html">Home</a>
-=======
-  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <a class="navbar-brand" href="index.html">Search</a>
+      <a class="icon" onclick="myFunction()">
+        <i class="fa fa-bars"></i>
+      </a>
     <div class="container-fluid">
-      <a class="navbar-brand" href="#">Navbar</a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
       <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav">
+          <li>
+            <a class="nav-link active" href="index.html">Home</a>
+          </li>
           <li class="nav-item">
             <a class="nav-link active" aria-current="page" href="instructionsPage.html">Instruction</a>
           </li>
           <li class="nav-item">
             <a class="nav-link active" aria-current="page" href="AdPage.html">Market</a>
-            <a class="nav-link active" aria-current="page" href="#">Home</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Insructions</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Market</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
           </li>
         </ul>
       </div>
     </div>
-  </nav>  
-  <p class="text-start p fs-3">The Mousetrap is a board game invented by Marvin Glass & Associates created a Rube Goldberg insipered game.
+    <script>
+      function myFunction() {
+        var x = document.getElementById("myTopnav");
+        if (x.className === "topnav") {
+          x.className += " responsive";
+        } else {
+          x.className = "topnav";
+        }
+      }
+      </script>
+  </nav> 
+</script>
+
+
+  <p class="text-start p">The Mousetrap is a board game invented by Marvin Glass & Associates created a Rube Goldberg insipered game.
     The first published by ideal in 1963 for two-four players. It was a mass-produced three-dimensional board games. When Marvin design his game, he wanted to be a 3-Dimensional board game
     which the players can build it vertically. He turned to get help with his employees, Gordon Barlow and Burt Meyer. Those two conceived the Mouse trap concept and have itt ready in the Toy Fair in 1963. 
     The game is a rolling dice with Mouse going in a circle path, in the time not many people were in the board games. Before they publish it, both Marvin and Burt went and took the game to show to Milton Bradley to seeif the popular board game company might be interested. 
     They were both surprised at the reaction from the president of Milton Bradley, James Shea Sr. thought it was a terrible idea. "This is not a game, this is nothing," he said. "A game, you play it on a borad and you roll dice, but this this is a lot of plastic junk. We can't use this", he said. 
      Parker Brothers also turned them down. But Glass had the last luagh. The game, released by ideal, wound up selling 1.2 million copies in 1963 alone.
   </p>
-  <img src="images/Mousetrap1.jpg" class=" border border-4 border-dark imgBig img-fluid rounded" id="shift">
+
+  <img src="images/Mousetrap1.jpg" class="border border-4 border-dark imgBig img-fluid rounded" id="shift">
+    <br>
   <br>
-  <p class="text-start fs-3 fontfamily p2">The idea that came to Marvin the creator of the mousetrap game, was from <a href="https://www.google.com/search?gs_ssp=eJzj4tDP1TcwSysxN2D04i0qTUpVSM_PSUlKLUoHAF2aB_E&q=rube+goldberg&rlz=1C1GCEB_enUS918US918&oq=rude+goldberg&aqs=chrome.1.69i57j46i10i433j0i10i433j0i10l4.7847j0j7&sourceid=chrome&ie=UTF-8">Reuben Garrett Lucius Goldberg</a>, known best as Rube Goldberg. 
+  <br>
+  <br>
+  <br>
+  <br>
+  <p class="text-start fontfamily p2">The idea that came to Marvin the creator of the mousetrap game, was from <a href="https://www.google.com/search?gs_ssp=eJzj4tDP1TcwSysxN2D04i0qTUpVSM_PSUlKLUoHAF2aB_E&q=rube+goldberg&rlz=1C1GCEB_enUS918US918&oq=rude+goldberg&aqs=chrome.1.69i57j46i10i433j0i10i433j0i10l4.7847j0j7&sourceid=chrome&ie=UTF-8">Reuben Garrett Lucius Goldberg</a>, known best as Rube Goldberg. 
   He is a: cartoonist, sculptor, author, engineer, and inventor. He is more known for the cartoon with complicated gadgets performing a simple task like, a hair cut, to watering the flowers. He born in July 4, 1883 in San Francisco and died in December 7, 1970 in New York.
-  In his life, he earned two awards.  
+  In his life, he earned two awards for Outstanding Cartoonist of the year and Pulitzer Prize for Editorial Cartooning. Goldberg even made a book called "Rube Goldberg Invention", were he draws a complex machinary in order to do one simple task, like watering the flowers or even tipping his hat. 
+  His famous work insipered lots of people to make the wierdest most complex machines ever fo rthe most basic thing 
   </p>
-=======
-  </nav>
+  <img src="images/Rube_Goldberg_Book.png" class="border border-4 border-dark imgother shift img-fluid">
+  <img src="images/Rube_Goldberg_art.png" class="border border-4 border-dark shift imgart img-fluid">
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <div class="footer">
+    <p><h4 style="float: left;">Contact: Example@gmail.com<p>COPYRIGHT&#169;</p></h4><h4 style="float: right;" type="button"><img class="rounded-circle friend" src="images/insta.jpg"><img class="rounded-circle friend" src="images/face.jpg"><img class="rounded-circle friend" src="images/twiiter.jpg"></h4>
+  </div>
 </body>
 </html>
+
+

@@ -2,12 +2,23 @@
     margin-left: 3rem;
     margin-top: .75rem;
 }
+.shift{
+    margin-left: 3rem;
+}
 .imgBig{
     width: 40rem;
     height: 40rem;
 }
+.imgother{
+    width: 30rem;
+    height: 20rem;
+}
+.imgart{
+    width: 48rem;
+    height: 20rem;
+}
 .p{
-    
+    font-size: 2vw;
     margin-top: 1rem;
     margin-right: 3rem;
     position: absolute;
@@ -17,10 +28,10 @@
     color: #DE3D28;
 }
 .p2{
-    margin: .75rem;
+    font-size: 2vw;
     margin-left: 3rem;
     margin-right: 3rem;
-    margin-top: 5rem;
+    margin-top: 2rem;
     color: #DE3D28;
 }
 .fontfamily{
@@ -32,4 +43,18 @@
 }
 body{
     background-color: #E0C936;
+}
+.footer{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #212529;
+    color: #0d6efd;
+    text-align: center;
+}
+.friend{
+    height: 65px;
+    width: 65px;
+    margin-right: 5px;
 }
