@@ -8,6 +8,7 @@
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js" integrity="sha384-q2kxQ16AaE6UbzuKqyBE9/u/KzioAlnx2maXQHiDX9d4/zp8Ok3f+M7DPm+Ib6IU" crossorigin="anonymous"></script>
     <link rel="icon" href="images/mousetrapLogo.png" type="images">
     <link rel="stylesheet" href="index.css">
+    <script src="js/hanad.js"></script>
 </head>
 <body>
   <nav class="navbar navbar-expand-lg navbar-blue bg-dark fontfamily fs-4" id="myTopnav">
@@ -31,16 +32,13 @@
         </ul>
       </div>
     </div>
-    <script>
-      function myFunction() {
-        var x = document.getElementById("myTopnav");
-        if (x.className === "topnav") {
-          x.className += " responsive";
-        } else {
-          x.className = "topnav";
-        }
-      }
-      </script>
+    <div style="float: right;">
+    </ul>
+    <label class="switch">
+      <input id="retroButton" name="retro" type="checkbox" onclick="myFunction() , changeImage() , changeImage2(), changeImage3()">
+      <span class="slider round"></span>
+    </label>
+  </div>
   </nav> 
 </script>
 
