@@ -91,7 +91,7 @@ h4{
 }
 @media screen and (max-width: 500px){
     p{
-        font-size:1.15rem;
+        font-size:1rem;
     }
     .topIMG{
         width: 124px;
@@ -101,7 +101,7 @@ h4{
         margin-left:0;
     }
     h4{
-        font-size:1.15rem;
+        font-size:1rem;
     }
     .friend{
         height: 45px;
@@ -122,6 +122,12 @@ h4{
     .largePic{
         width:130px;
         height:135px;
+    }
+    .col-md-4{
+        height:60%;
+    }
+    .profPic{
+        width:20%;
     }
 }
 .largePic{
@@ -153,8 +159,16 @@ h4{
 .mainGrid{
     display:grid;
     grid-template-columns:auto auto;
-    border: .25rem solid black;
+    border: .15rem solid grey;
     margin-top:4rem;
+}
+.card{
+    border: .15rem solid grey;
+}
+/* Store Page*/
+.profPic{
+    height:80%;
+    padding:0;
 }
 .storeMainPic{
     grid-column:1/2;
@@ -176,6 +190,17 @@ h4{
 .buyBtn{
     grid-column:2/3;
     grid-row:3/4;
+    width:75%;
+    height:75%;
+}
+.cartBtn{
+    grid-column:3/4;
+    grid-row:3/4;
+    width:75%;
+    height:75%;
+}
+.card-text{
+    justify-items: right;
 }
 
 /*RETRO MODE*/
@@ -268,4 +293,14 @@ h4{
 }
 .retro-mode > div > div > div > p{
     color: #9D72FF;
+}
+.retro-mode > div > div > button{
+    background-color:purple;
+    color: hotpink;
+}
+.retro-mode > div > div > div > div > div > p{
+    color: #9D72FF;
+}
+.retro-mode > div > div > div > div{
+    background-color:black;
 }
